@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ptit.hungvu.jdbcLearning.SQLServerConnUtils_JDTS.java&apos; to &apos;SQLServerConnUtils_JTDS.java&apos;&#x0D;&#x0A;- Original project: &apos;JDBC-Learning&apos;&#x0D;&#x0A;- Original element: &apos;ptit.hungvu.jdbcLearning.SQLServerConnUtils_JDTS.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ptit.hungvu.jdbcLearning.SQLServerConnUtils_JTDS.java&apos;" description="Rename compilation unit &apos;SQLServerConnUtils_JDTS.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;ptit.hungvu.jdbcLearning{SQLServerConnUtils_JDTS.java" name="SQLServerConnUtils_JTDS.java" references="false" stamp="1501964930174" version="1.0"/>
+</session>
