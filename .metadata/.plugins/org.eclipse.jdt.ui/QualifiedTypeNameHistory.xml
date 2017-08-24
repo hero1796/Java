@@ -19,7 +19,6 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="ptit.hungvu.web.beans.UserInfo"/>
 <fullyQualifiedTypeName name="ptit.hungvu.web.beans.Constants"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.sun.net.httpserver.Filter.Chain"/>
 <fullyQualifiedTypeName name="javax.servlet.annotation.WebInitParam"/>
 <fullyQualifiedTypeName name="java.io.File"/>
@@ -39,4 +38,20 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="oracle.jdbc.driver.OracleDriver"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.lang.impl.Vietnamese"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.config.AppConfiguration"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.lang.Language"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.bean.GreetingService"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.bean.MyRepository"/>
+<fullyQualifiedTypeName name="ptit.hungvu.spring.bean.MyComponent"/>
 </qualifiedTypeNameHistroy>
