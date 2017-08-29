@@ -12,7 +12,7 @@ public class SQLServerConnUtils_JTDS {
 	
 	public static Connection getSQLServerConnection() throws SQLException {
 		String hostName = "localhost";
-		String dbName = "LearnSQL";
+		String dbName = "hoteldb";
 		String sqlInstanceName = "SQLEXPRESS";
 		String userName = "sa";
 		String password = "hungga123";

@@ -10,7 +10,7 @@ public class OracleConnUtils {
 	}
 	
 	public static Connection getOracleConnection() throws SQLException, ClassNotFoundException {
-		String hostName = "192.168.1.187";
+		String hostName = "192.168.1.184";
 		String sid = "db12c";
 		String userName = "learnsql";
 		String password = "hungga123";
