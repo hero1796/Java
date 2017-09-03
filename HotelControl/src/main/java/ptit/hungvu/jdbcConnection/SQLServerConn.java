@@ -10,7 +10,7 @@ public class SQLServerConn {
 		String hostName = "localhost";
 		String dbName = "hoteldb";
 		String sqlInstanceName = "SQLEXPRESS";
-		String username = "sa";
+		String username = "hero1796";
 		String password = "hungga123";
 		String connectionUrl = "jdbc:jtds:sqlserver://" + hostName + ":1433/" 
 				+ dbName + ";instance=" + sqlInstanceName;

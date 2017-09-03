@@ -15,12 +15,11 @@ public class MyDAO {
 		ResultSet rs = ps.executeQuery();
 		while(rs.next()) {
 			int id = rs.getInt(1);
-			String name = rs.getString(2);
+			String name = rs.getString(2).trim();
 			int star = rs.getInt(3);
-			String address = rs.getString(4);
+			String address = rs.getString(4).trim();
 			String description = rs.getString(5);
 			System.out.println(id + " -- " + name + " -- " + star + " -- " + address + " -- " + description);
 		}
 	}
-
 }
