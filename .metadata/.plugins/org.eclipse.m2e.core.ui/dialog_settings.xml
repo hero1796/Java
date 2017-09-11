@@ -2,12 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="ptit.hungvu"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="HotelControl"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,6 +44,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\VuTheHung\WorkSpace\Eclipse\SpringMVCStaticResource"/>
+			<item value="D:\VuTheHung\WorkSpace\Eclipse\HelloSpringMVC"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\JDBC-Learning\src\main\java\ptit\hungvu\jdbcLearning\QueryDataExample.java"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\HelloSpringAnnotation"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\Servers"/>
@@ -62,10 +62,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ptit.hungvu.SpringInterceptor"/>
+			<item value="ptit.hungvu.SpringMVCStaticResource"/>
 		</list>
 		<list key="groupId">
+			<item value="ptit.hungvu"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringInterceptor"/>
+			<item value="SpringMVCStaticResource"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

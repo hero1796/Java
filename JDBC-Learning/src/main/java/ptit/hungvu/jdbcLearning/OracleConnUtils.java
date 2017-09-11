@@ -10,7 +10,7 @@ public class OracleConnUtils {
 	}
 	
 	public static Connection getOracleConnection() throws SQLException, ClassNotFoundException {
-		String hostName = "192.168.1.184";
+		String hostName = "192.168.1.104";
 		String sid = "db12c";
 		String userName = "learnsql";
 		String password = "hungga123";
@@ -20,6 +20,7 @@ public class OracleConnUtils {
 	
 	public static Connection getOracleConnection(String hostName, String sid, String userName
 			, String password) throws SQLException, ClassNotFoundException {
+		
 		String connectionUrl = "jdbc:oracle:thin:@" + hostName + ":1521:" + sid;
 		Connection conn = DriverManager.getConnection(connectionUrl, userName, password);
 		return conn;

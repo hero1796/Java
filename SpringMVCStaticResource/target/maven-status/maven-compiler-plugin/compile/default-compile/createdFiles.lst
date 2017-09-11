@@ -1,0 +1,4 @@
+ptit\hungvu\springmvcresource\config\ApplicationContextConfig.class
+ptit\hungvu\springmvcresource\controller\MainController.class
+ptit\hungvu\springmvcresource\config\WebMvcConfig.class
+ptit\hungvu\springmvcresource\config\SpringWebInitializer.class

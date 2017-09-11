@@ -10,7 +10,9 @@ public class ConnectionUtils {
 	}
 	public static Connection getMyConnection() throws SQLException, ClassNotFoundException {
 //	 	Connection conn = SQLServerConnUtils_JTDS.getSQLServerConnection();
-		Connection conn = OracleConnUtils.getOracleConnection();
+//		Connection conn = OracleConnUtils.getOracleConnection();
+		Connection conn = MySQLConnUtils.getMySQLConnection();
+		
 	 	return conn;
 	}
 	

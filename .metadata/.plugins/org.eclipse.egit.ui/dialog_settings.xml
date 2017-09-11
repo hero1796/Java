@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
 	<list key="CommitDialog.authorValues">
 		<item value="hungvu &lt;vuthehung17@gmail.com&gt;"/>
 	</list>
@@ -18,6 +23,13 @@
 		</list>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="D:\VuTheHung\WorkSpace\Eclipse\.git">
+			<item value="false"/>
+			<item value="hungvu &lt;vuthehung17@gmail.com&gt;"/>
+			<item value="a"/>
+			<item value="hungvu &lt;vuthehung17@gmail.com&gt;"/>
+			<item value="9f730b60d1ce82642c117b9ce7a857a6ae10a8a3"/>
+		</list>
 	</section>
 	<section name="GitCommitSearchPage">
 		<item value="0" key="HISTORY_SIZE"/>
