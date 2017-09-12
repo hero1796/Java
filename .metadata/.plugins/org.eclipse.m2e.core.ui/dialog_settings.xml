@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\VuTheHung\WorkSpace\Eclipse\SpringInterceptor\src\main\webapp\WEB-INF\web.xml"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\SpringMVCStaticResource"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\HelloSpringMVC"/>
 			<item value="D:\VuTheHung\WorkSpace\Eclipse\JDBC-Learning\src\main\java\ptit\hungvu\jdbcLearning\QueryDataExample.java"/>
@@ -62,6 +63,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ptit.hungvu.SpringUploadFiles"/>
 			<item value="ptit.hungvu.SpringInterceptor"/>
 			<item value="ptit.hungvu.SpringMVCStaticResource"/>
 		</list>
@@ -69,6 +71,7 @@
 			<item value="ptit.hungvu"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringUploadFiles"/>
 			<item value="SpringInterceptor"/>
 			<item value="SpringMVCStaticResource"/>
 		</list>
