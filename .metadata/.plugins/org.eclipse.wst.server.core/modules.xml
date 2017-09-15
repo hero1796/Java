@@ -3,6 +3,7 @@
   <module moduleId="org.eclipse.jst.jee.server:ServletFilterDemo" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:HelloSpringMVC" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:SpringMVCStaticResource" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:ServletFilter" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JSP-Learning" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:FirstServlet" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>
