@@ -8,3 +8,7 @@
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:11:08 +0700] "GET /JerseyRESTful/rest/weather/hanoi HTTP/1.1" 200 68 http-bio-8080-exec-2 4
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:11:11 +0700] "GET /JerseyRESTful/rest/weather/hanoi HTTP/1.1" 200 67 http-bio-8080-exec-3 3
 0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:11:14 +0700] "GET /JerseyRESTful/rest/weather/hanoi HTTP/1.1" 200 68 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:17:44 +0700] "GET /JerseyRESTful/rest/weather/hanoi HTTP/1.1" 200 67 http-bio-8080-exec-1 85
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:17:45 +0700] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:19:11 +0700] "GET /JerseyRESTful/rest/weather/hanoi HTTP/1.1" 200 67 http-bio-8080-exec-5 8
+0:0:0:0:0:0:0:1 - - [19/Sep/2017:17:19:25 +0700] "GET /JerseyRESTful/rest/weather/hanoi/2014-05-01 HTTP/1.1" 200 68 http-bio-8080-exec-9 5
