@@ -14,7 +14,6 @@ import javax.ws.rs.Produces;
 @Path("/weather")
 public class WeatherRESTfulServce {
 	private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-
 	@Path("{location}/{date}")
 	@GET
 	@Produces("application/json")
@@ -31,6 +30,7 @@ public class WeatherRESTfulServce {
 				date = new Date();
 			}
 		}
+		
 		dateStr = df.format(date);
 
 		String[] weathers = new String[] { "Hot", "Rain", "Cold" };
@@ -49,4 +49,6 @@ public class WeatherRESTfulServce {
 	public String getWeather_JSON(@PathParam("location") String location) {
 		return getWeather_JSON(location, null);
 	}
+	
 }
+
