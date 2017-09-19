@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;JDTS-SqlServer-Demo&apos;" deleteContents="true" description="Delete resource &apos;JDTS-SqlServer-Demo&apos;" element1="/JDTS-SqlServer-Demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1501962907768"/>
-</session>
