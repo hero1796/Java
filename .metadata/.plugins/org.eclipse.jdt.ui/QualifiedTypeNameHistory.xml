@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.servlet.FilterRegistration.Dynamic"/>
-<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.CharacterAction"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
-<fullyQualifiedTypeName name="ptit.hungvu.controller.SQLServerConn"/>
-<fullyQualifiedTypeName name="ptit.hungvu.jdbcConnection.ConnectionUtil"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="ptit.hungvu.jdbcLearning.MySQLConnUtils"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextInitializer"/>
 <fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletRegistration"/>
@@ -31,7 +21,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.servlet.LocaleResolver"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.i18n.CookieLocaleResolver"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="ptit.hungvu.springuploadfiles.form.UploadForm"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
 </qualifiedTypeNameHistroy>

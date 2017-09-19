@@ -22,7 +22,6 @@ import ptit.hungvu.springuploadfiles.form.UploadForm;
 
 @Controller
 public class UploadController {
-
 	@InitBinder
 	public void initBinder(WebDataBinder dataBinder) {
 		Object target = dataBinder.getTarget();
