@@ -4,4 +4,11 @@
 		<item value="D:\VuTheHung\WorkSpace\Eclipse"/>
 		<item value="D:\VuTheHung\WorkSpace\Eclipse\JerseyRESTful"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="101" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>

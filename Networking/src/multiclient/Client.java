@@ -34,6 +34,7 @@ public class Client extends Application {
 	private DataInputStream in;
 	private DataOutputStream out;
 	private Socket socket;
+
 	public Client() {
 		textArea = new TextArea();
 		in = null;
@@ -62,8 +63,6 @@ public class Client extends Application {
 			socket = new Socket("localhost", 7899);
 			in = new DataInputStream(socket.getInputStream());
 			out = new DataOutputStream(socket.getOutputStream());
-			new ObjectInputStream(socket.getInputStream());
-			new ObjectOutputStream(socket.getOutputStream());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
