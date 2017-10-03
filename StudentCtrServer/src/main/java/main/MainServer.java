@@ -1,3 +1,5 @@
+package main;
+
 import controller.TCPServerController;
 
 public class MainServer {

@@ -4,8 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-
-import jdbcConnection.ConnectionUtils;
+import jdbcConnection.MySQLConnUtils;
 import ptit.hungvu.model.Student;
 
 public class DAO {
@@ -29,7 +28,7 @@ public class DAO {
 	
 	public DAO() {
 		try {
-			conn = ConnectionUtils.getMyConnection();
+			conn = MySQLConnUtils.getMySQLConnection();
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
@@ -52,6 +51,7 @@ public class DAO {
 			e.printStackTrace();
 			return false;
 		}
+		System.out.println("add xong!");
 		return true;
 	}
 }

@@ -808,3 +808,329 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2017-09-26 17:59:49,104 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-09-26 22:21:29,726 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2017-09-26 23:56:01,098 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-01 22:58:46,812 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-01 23:04:46,523 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-02 18:03:22,874 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-03 00:26:07,975 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-03 13:08:03,768 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-03 13:20:52,482 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-03 13:21:26,891 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit.hungvu:HotelControl:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\HotelControl\pom.xml.
+2017-10-03 13:21:27,845 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:21:27,852 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:21:27,857 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:21:27,858 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:21:28,531 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Error contextualizing: org.codehaus.plexus.archiver.jar.JarArchiver@1b24e2fd Error retrieving ArchiverManager instance: java.util.NoSuchElementException
+      role: org.codehaus.plexus.archiver.manager.ArchiverManager
+  roleHint: 
+org.codehaus.plexus.context.ContextException: Error retrieving ArchiverManager instance: java.util.NoSuchElementException
+      role: org.codehaus.plexus.archiver.manager.ArchiverManager
+  roleHint: 
+	at org.codehaus.plexus.archiver.AbstractArchiver.contextualize(AbstractArchiver.java:742) ~[plexus-archiver-2.1.jar:na]
+	at org.eclipse.sisu.plexus.PlexusLifecycleManager.contextualize(PlexusLifecycleManager.java:282) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.eclipse.sisu.plexus.PlexusLifecycleManager.activate(PlexusLifecycleManager.java:203) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.eclipse.sisu.bean.BeanScheduler$Pending.activate(BeanScheduler.java:156) [org.eclipse.sisu.inject-0.3.2.jar:na]
+	at org.eclipse.sisu.bean.BeanScheduler$Activator.onProvision(BeanScheduler.java:185) [org.eclipse.sisu.inject-0.3.2.jar:na]
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:126) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:68) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:63) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:45) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1016) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1092) [guice-4.0-no_aop.jar:na]
+	at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:1012) [guice-4.0-no_aop.jar:na]
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162) [org.eclipse.sisu.inject-0.3.2.jar:na]
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81) [org.eclipse.sisu.inject-0.3.2.jar:na]
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:517) [maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:353) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:441) [org.sonatype.m2e.mavenarchiver_0.17.2.201606141937-signed-20160830073346.jar:na]
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:397) [org.sonatype.m2e.mavenarchiver_0.17.2.201606141937-signed-20160830073346.jar:na]
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:210) [org.sonatype.m2e.mavenarchiver_0.17.2.201606141937-signed-20160830073346.jar:na]
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator$1.build(AbstractMavenArchiverConfigurator.java:145) [org.sonatype.m2e.mavenarchiver_0.17.2.201606141937-signed-20160830073346.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:137) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:172) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1$1.call(MavenBuilder.java:115) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:105) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232) [org.eclipse.core.resources_3.12.0.v20170417-1558.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.0.v20170322-0013.jar:na]
+Caused by: org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.codehaus.plexus.archiver.manager.ArchiverManager
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:243) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:237) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	at org.codehaus.plexus.archiver.AbstractArchiver.contextualize(AbstractArchiver.java:738) ~[plexus-archiver-2.1.jar:na]
+	... 46 common frames omitted
+Caused by: java.util.NoSuchElementException: null
+	at java.util.Collections$EmptyIterator.next(Unknown Source) ~[na:1.8.0_121]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263) [org.eclipse.sisu.plexus-0.3.2.jar:na]
+	... 49 common frames omitted
+2017-10-03 13:21:29,469 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit.hungvu:HotelControl:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\HotelControl\pom.xml.
+2017-10-03 13:21:30,804 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:21:30,809 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:21:30,813 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:21:30,814 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:22:11,937 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-10-03 13:22:19,092 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\VuTheHung\WorkSpace\Eclipse\HotelControl
+2017-10-03 13:22:19,093 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-10-03 13:22:26,497 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:22:26,501 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:22:26,503 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:22:26,504 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:23:04,395 [Worker-1] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MyDAO references closed project HotelControl
+org.eclipse.core.runtime.CoreException: Launch configuration MyDAO references closed project HotelControl
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.0.v20170322-0013.jar:na]
+2017-10-03 13:23:04,432 [Worker-1] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MyDAO references closed project HotelControl
+org.eclipse.core.runtime.CoreException: Launch configuration MyDAO references closed project HotelControl
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.0.v20170322-0013.jar:na]
+2017-10-03 13:23:04,438 [Worker-1] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration MyDAO references closed project HotelControl
+org.eclipse.core.runtime.CoreException: Launch configuration MyDAO references closed project HotelControl
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1280) ~[org.eclipse.jdt.launching_3.9.0.v20170419-1235.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.11.0.v20170605-1534.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) [org.eclipse.m2e.core_1.8.1.20170728-1531.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.0.v20170322-0013.jar:na]
+2017-10-03 13:26:18,512 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit:StudentCtr:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\StudentCtr\pom.xml.
+2017-10-03 13:26:19,283 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtr/src/main/java
+2017-10-03 13:26:19,284 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtr/src/main/resources
+2017-10-03 13:26:19,285 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtr/src/test/java
+2017-10-03 13:26:19,286 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtr/src/test/resources
+2017-10-03 13:26:19,843 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:26:19,847 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:26:19,850 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:26:19,851 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:24,136 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:24,141 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:24,144 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:24,145 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:37,955 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:37,973 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:37,975 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:37,976 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:56,754 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:56,756 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:27:56,758 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:27:56,759 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:28:24,721 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\VuTheHung\WorkSpace\Eclipse\StudentCtr
+2017-10-03 13:28:24,721 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-10-03 13:28:30,963 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:28:30,964 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:28:30,966 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:28:30,967 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:31:05,876 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit:StudentCtrClient:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\StudentCtrClient\pom.xml.
+2017-10-03 13:31:06,720 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtrClient/src/main/java
+2017-10-03 13:31:06,720 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtrClient/src/main/resources
+2017-10-03 13:31:06,720 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtrClient/src/test/java
+2017-10-03 13:31:06,720 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtrClient/src/test/resources
+2017-10-03 13:31:07,251 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:31:07,267 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:31:07,267 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:31:07,267 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:31:21,136 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit:StudentCtrServer:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\StudentCtrServer\pom.xml.
+2017-10-03 13:31:21,371 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtrServer/src/main/java
+2017-10-03 13:31:21,371 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtrServer/src/main/resources
+2017-10-03 13:31:21,371 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentCtrServer/src/test/java
+2017-10-03 13:31:21,371 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentCtrServer/src/test/resources
+2017-10-03 13:31:21,886 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:31:21,886 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:31:21,886 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:31:21,886 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:00,712 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:00,728 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:00,728 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:00,728 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:07,040 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:07,040 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:07,040 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:07,040 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:26,807 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:26,807 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:26,807 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:26,807 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:53,730 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:53,746 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:32:53,746 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:32:53,746 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:34:34,689 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:34:34,689 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:34:34,689 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:34:34,689 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:34:56,440 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:34:56,440 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:34:56,440 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:34:56,440 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:04,096 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:04,096 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:04,096 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:04,096 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:26,582 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit:StudentCtr:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\StudentCtr\pom.xml.
+2017-10-03 13:35:27,466 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:27,466 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:27,466 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:27,466 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:28,388 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ptit:StudentCtr:0.0.1-SNAPSHOT @ D:\VuTheHung\WorkSpace\Eclipse\StudentCtr\pom.xml.
+2017-10-03 13:35:28,638 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:28,638 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:28,638 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:28,638 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:49,654 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:49,654 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:35:49,654 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:35:49,670 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:18,843 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:18,843 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:18,843 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:18,843 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:23,797 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:23,797 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:23,812 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:23,812 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:41,585 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:41,585 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:41,585 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:41,585 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:50,835 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:50,835 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:36:50,835 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:36:50,835 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:03,457 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:03,457 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:03,473 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:03,473 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:12,552 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:12,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:12,567 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:12,567 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:23,208 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:23,208 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:23,224 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:23,224 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:50,647 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:50,647 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:38:50,647 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:38:50,647 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:13,680 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:13,695 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:13,695 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:13,695 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:24,102 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:24,102 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:24,102 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:24,102 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:35,306 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:35,306 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:35,306 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:35,306 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:49,947 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:49,947 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:39:49,947 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:39:49,947 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:02,386 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:02,386 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:02,386 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:02,386 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:25,027 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:25,027 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:25,027 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:25,027 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:40,653 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:40,653 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:40,653 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:40,653 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:54,841 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:54,841 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:40:54,857 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:40:54,857 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:43:53,943 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:43:53,943 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:43:53,943 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:43:53,943 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:48:22,330 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:48:22,330 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:48:22,346 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:48:22,346 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:48:24,502 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:48:24,502 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-10-03 13:48:24,518 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1258 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-03 13:48:24,518 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

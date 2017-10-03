@@ -35,4 +35,6 @@
 <fullyQualifiedTypeName name="controller.DAO"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
 <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.MySQLConnection"/>
+<fullyQualifiedTypeName name="jdbcConnection.MySQLConnUtils"/>
 </qualifiedTypeNameHistroy>
