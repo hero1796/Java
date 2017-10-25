@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 
+import javax.annotation.Generated;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -16,7 +17,7 @@ import javax.ws.rs.Produces;
 public class WeatherRESTfulServce {
 	private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 	@Path("{location}/{date}")
-	@POST
+	@GET
 	@Produces("application/json")
 	public String getWeather_JSON(@PathParam("location") String location, //
 			@PathParam("date") String dateStr) {
