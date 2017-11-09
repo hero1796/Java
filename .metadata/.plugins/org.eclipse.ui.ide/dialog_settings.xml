@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\hungvu\Downloads\MediaMart"/>
+		<item value="C:\Users\hungvu\Google Drive\GDP2 cmc global\JavaBasic\Assignment\GDP2"/>
 		<item value="D:\VuTheHung\WorkSpace\Eclipse"/>
 		<item value="D:\VuTheHung\WorkSpace\Eclipse\JerseyRESTful"/>
 	</list>
@@ -12,5 +14,9 @@
 		<item value="101" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
 	</section>
 </section>

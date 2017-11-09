@@ -1,0 +1,189 @@
+h1, h2, h3, h4, h5, h6, p, label {
+	margin: 0;
+}
+
+body {
+	font-family: Tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header{
+	height: 100px;
+	width: 1000px;
+	background: #ccffcc;
+}
+#header #logo{
+	float: left;
+}
+#header #search{
+	float: left;
+	padding-top: 35px;
+	padding-left: 30px;
+}
+#menu_top {
+	background: #ffff00;
+	height: 40px;
+	border: 1px solid;
+}
+
+#banner {
+	height: auto;
+	width: 1000px;
+}
+
+#main #left {
+	width: 750px;
+	background: #e6ffff;
+	float: left;
+	min-height: 400px;
+}
+
+#main #right {
+	width: 250px;
+	float: left;
+	min-height: 1200px;
+}
+#footer {
+	width: 1000px;
+	height: 60px;
+	color: #000;
+	text-align: center;
+	clear: left;
+	line-height: 3	0px;
+}
+
+#menu_top ul {
+	margin: 0px;
+	padding: 0px;
+	padding-right: 0px;
+}
+
+#menu_top ul li {
+	list-style: none;
+	float: left;
+}
+
+#menu_top ul li a {
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	width: 101px;
+	line-height: 40px;
+	color: #000;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #ccc;
+}
+
+#menu_top ul li a .active {
+	background: #1949b5;
+}
+
+#banner img {
+	width: 1000px;
+}
+
+#main {
+	margin-top: 20px;
+}
+
+#banner {
+	text-align: center;
+}
+.tivi{
+	width: 100%;
+	height: 180px;
+}
+.tv {
+	height 200px; 
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	margin: 1%;
+}
+
+.lap {
+	height 133px;
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	margin: 1%;
+}
+
+.dt {
+	height 133px;
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	margin: 1%;
+}
+
+.tulanh {
+	height 133px;
+	width: 30%;
+	float: left;
+	border: 1px solid black;
+	text-align: center;
+	margin: 1%;
+}
+
+.tulanh h2 {padding-bottom 20px;height 133px;
+	font-size: 16px;
+}
+
+.detailtv{
+	text-align: center;
+}
+.map{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#thanhtoan{
+	float:left;
+}
+#searchIcon{
+	padding-left: 10px;
+	padding-top: 35px;
+	float: left;
+	height: 35px;
+}
+#giohang {
+	padding-left: 200px;
+	padding-top: 55px;
+}
+#leftBar {
+    width: 200px;
+    height: 266px;
+    float: left;
+    padding: 0 0 20px 10px;
+    border-right: 0px solid #dcdcdc;
+    text-align: left;
+}
+#leftBar ul {list-style: none;padding: 0; margin: 0;font-size: 13px;}
+#leftBar ul li {
+    width: 164px;
+    background: url(../images/icon-left.png) no-repeat left center, url(../images/green.jpg) repeat left center;
+    padding: 10px 0 10px 10px; margin-top: 8px;margin-left: 9px;
+    border: 1px solid #dcdcdc;
+    -moz-border-radius-topleft: 8px;-moz-border-radius-bottomleft: 8px;
+    -webkit-border-top-left-radius: 8px;-webkit-border-bottom-left-radius: 8px;
+    -o-border-top-left-radius: 8px;-o-border-bottom-left-radius: 8px;}
+#leftBar ul li a {
+    width: 100%;
+    color: #2e2e2e;
+    cursor: pointer;
+    padding: 10px 65px 10px 20px;
+    -webkit-transition: padding-left 250ms ease-out;
+    -moz-transition: padding-left 250ms ease-out;
+    -o-transition: padding-left 250ms ease-out;
+}
+#leftBar ul li a:hover {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px #496d2a;
+}

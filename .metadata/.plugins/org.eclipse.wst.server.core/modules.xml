@@ -2,6 +2,8 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Strut2-helloworld" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:SpringMVCStaticResource" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:DemoWebBanHang" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:SpringMVC" serverId="Tomcat v8.5 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Struts2-login" serverId="Tomcat v8.5 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:MediaMart" serverId="Tomcat v8.5 Server at localhost"/>
 </modules>

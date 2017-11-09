@@ -11,23 +11,24 @@ public class UserDAO {
 	private Connection con = null;
 	private ResultSet rs = null;
 
-	String hostName = "localhost";
-	String dbName = "studentdb";
-	String userName = "hero1796";
-	String password = "hungga123";
-	String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName;
+	private String hostName = "localhost";
+	private String dbName = "studentdb";
+	private String userName = "hero1796";
+	private String password = "hungga123";
+	private String connectionURL = "jdbc:mysql://" + hostName + ":3306/" + dbName;
+	private String dbClass = "com.mysql.jdbc.Driver";
 
 	public UserDAO() {
 		try {
+			Class.forName(dbClass);
 			con = DriverManager.getConnection(connectionURL, userName, password);
-		} catch (SQLException ex) {
+		} catch(SQLException ex) {
+			ex.printStackTrace();
+		} catch(ClassNotFoundException ex) {
 			ex.printStackTrace();
 		}
 	}
 	
-//	public static void main(String[] args) {
-//		UserDAO da = new UserDAO();
-//	}
 	public boolean checkLogin(User user) {
 		boolean result = false;
 		try {
