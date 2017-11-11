@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import javafx.scene.control.Alert;
-import model.User;
+import model.Account;
 
 /**
  * Servlet implementation class LoginServlet
@@ -51,12 +51,12 @@ public class LoginServlet extends HttpServlet {
     String pass = request.getParameter("password");
     HttpSession session = request.getSession();
 
-    User myuser = new User();
+    Account myuser = new Account();
     session.setAttribute("MYUSER", myuser);
     if (user.equals("admin") && pass.equals("1234")) {
       RequestDispatcher dispatcher = request.getRequestDispatcher("/admin.jsp");
       dispatcher.forward(request, response);
-    } else if (user.equals("nguyen") && pass.equals("1234")) {
+    } else if (user.equals("hung") && pass.equals("1234")) {
       RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
       dispatcher.forward(request, response);
     } else {

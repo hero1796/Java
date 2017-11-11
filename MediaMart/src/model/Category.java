@@ -1,35 +1,45 @@
 package model;
 
 public class Category {
-  private int id;
-  private String name;
+	private int id;
+	private String name;
 
-  public Category(int id, String name) {
-    super();
-    this.id = id;
-    this.name = name;
-  }
+	public int getId() {
+		return id;
+	}
 
-  public Category() {
-    super();
-  }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-  public int getId() {
-    return id;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setId(int id) {
-    this.id = id;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	public Category() {
+		super();
+	}
 
-  public String getName() {
-    return name;
-  }
+	public Category(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
-  public String toString() {
-    return this.id+" "+this.name;
-  }
+	public Category(String name) {
+		super();
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Category [id=" + id + ", name=" + name + "]";
+	}
+
 }

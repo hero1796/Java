@@ -39,7 +39,7 @@ public class SearchProductServlet extends HttpServlet {
     response.getWriter().append("Served at: ").append(request.getContextPath());
     String name = request.getParameter("searchname");
     request.setAttribute("NAMESEARCH", name);
-    RequestDispatcher dispatcher = request.getRequestDispatcher("/ListProductSearch.jsp");
+    RequestDispatcher dispatcher = request.getRequestDispatcher("/list-products-searched.jsp");
     dispatcher.forward(request, response);
   }
 

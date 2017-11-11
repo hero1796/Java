@@ -27,7 +27,7 @@
 			</div>
 		</form>
 		<div>
-			<a id="giohang" href="Cart.jsp"><img alt=""
+			<a id="giohang" href="cart.jsp"><img alt=""
 				src="images/giohang.png"></a>
 		</div>
 	</div>

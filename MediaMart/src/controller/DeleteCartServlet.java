@@ -38,7 +38,7 @@ public class DeleteCartServlet extends HttpServlet {
 		try {
       CartDao cDao= new CartDao();
       int row= cDao.deleteCart(id);
-      RequestDispatcher dispatcher = request.getRequestDispatcher("/Cart.jsp");
+      RequestDispatcher dispatcher = request.getRequestDispatcher("/cart.jsp");
       dispatcher.forward(request, response);
     } catch (ClassNotFoundException | SQLException e) {
       // TODO Auto-generated catch block

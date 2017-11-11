@@ -45,7 +45,7 @@ public class EditProductServlet extends HttpServlet {
       Product p = pDao.getProductById(idnum);
       request.setAttribute("PRODUCT", p);
       
-      RequestDispatcher dispatcher = request.getRequestDispatcher("/EditDetail.jsp");
+      RequestDispatcher dispatcher = request.getRequestDispatcher("/edit-detail.jsp");
       dispatcher.forward(request, response);
     } catch (ClassNotFoundException | SQLException e) {
       // TODO Auto-generated catch block

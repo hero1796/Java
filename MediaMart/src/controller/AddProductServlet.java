@@ -19,47 +19,51 @@ import model.Product;
 @WebServlet("/AddProductServlet")
 public class AddProductServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public AddProductServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public AddProductServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
-		String name= request.getParameter("name");
-    int price = Integer.parseInt(request.getParameter("price"));
-    String maker= request.getParameter("maker");
-    String linkImg= request.getParameter("linkimg");
-    int categoryID= Integer.parseInt(request.getParameter("categoryid"));
-    
-    Product p = new Product(name, linkImg, price, maker, categoryID);
-    try {
-      ProductDao pDao = new ProductDao();
-      int row= pDao.insertProduct(p);
-      RequestDispatcher dispatcher = request.getRequestDispatcher("/admin.jsp");
-      dispatcher.forward(request, response);
-      
-    } catch (ClassNotFoundException | SQLException e) {
-      // TODO Auto-generated catch block
-      e.printStackTrace();
-    }
-    
+		String name = request.getParameter("name");
+		int price = Integer.parseInt(request.getParameter("price"));
+		String maker = request.getParameter("maker");
+		String linkImg = request.getParameter("linkimg");
+		int categoryID = Integer.parseInt(request.getParameter("categoryid"));
+
+		Product p = new Product(name, linkImg, price, maker, categoryID);
+		try {
+			ProductDao pDao = new ProductDao();
+			int row = pDao.insertProduct(p);
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/admin.jsp");
+			dispatcher.forward(request, response);
+
+		} catch (ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\VuTheHung\Google drive\GDP2 cmc global\eclipse-workspace"/>
 		<item value="C:\Users\hungvu\Downloads\MediaMart"/>
 		<item value="C:\Users\hungvu\Google Drive\GDP2 cmc global\JavaBasic\Assignment\GDP2"/>
 		<item value="D:\VuTheHung\WorkSpace\Eclipse"/>
@@ -8,7 +9,7 @@
 	</list>
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
-		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
 		<item value="402" key="DIALOG_HEIGHT"/>
 		<item value="433" key="DIALOG_X_ORIGIN"/>
 		<item value="101" key="DIALOG_Y_ORIGIN"/>

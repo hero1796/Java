@@ -22,7 +22,7 @@ function callservletDelete(id) {
 	   
 }
 function callservletAdd() {
-	   document.location.href="addProduct.jsp";
+	   document.location.href="add-product.jsp";
 	   return;
 }
 </script>

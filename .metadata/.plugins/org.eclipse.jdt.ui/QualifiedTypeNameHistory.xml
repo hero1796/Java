@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="controller.TCPServerController"/>
-<fullyQualifiedTypeName name="java.awt.GridLayout"/>
-<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-<fullyQualifiedTypeName name="com.mysql.jdbc.MySQLConnection"/>
-<fullyQualifiedTypeName name="jdbcConnection.MySQLConnUtils"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.ParameterMode"/>
-<fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.security.Provider.Service"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.ws.wsdl.writer.document.Service"/>
 <fullyQualifiedTypeName name="javax.xml.ws.Service"/>
@@ -52,7 +42,6 @@
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="ptit.hungvu.Sanpham"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="model.FullName"/>
+<fullyQualifiedTypeName name="model.Address"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="model.Person"/>
+<fullyQualifiedTypeName name="model.Category"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="model.Author"/>
+<fullyQualifiedTypeName name="model.Publisher"/>
+<fullyQualifiedTypeName name="model.Employee"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.dom.PSVIDOMImplementationImpl"/>
 </qualifiedTypeNameHistroy>
